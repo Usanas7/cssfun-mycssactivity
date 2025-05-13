@@ -1,0 +1,116 @@
+/* ✅ Google Font import */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* ✅ Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ✅ Body styling */
+body {
+    background-color: #f4f4f4;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* ✅ Profile Card Styles */
+.profile-card {
+    width: 320px;
+    margin: 20px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    overflow: hidden;
+}
+
+/* ✅ Header */
+.profile-card header {
+    text-align: center;
+    padding-bottom: 20px;
+    background-color: #0077cc;
+    color: #fff;
+    border-radius: 12px 12px 0 0;
+}
+
+/* ✅ Profile Image */
+.profile-img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #fff;
+    margin-top: -60px;
+    background-color: #ccc;
+}
+
+/* ✅ Name */
+.profile-name {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin: 10px 0 5px;
+}
+
+/* ✅ Title */
+.profile-title {
+    font-size: 1rem;
+    color: #e0e0e0;
+    margin-bottom: 10px;
+}
+
+/* ✅ Bio Section */
+.profile-details {
+    padding: 20px 0;
+}
+
+.profile-bio {
+    font-size: 0.95rem;
+    line-height: 1.4;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+/* ✅ Skills List */
+.profile-skills {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+.profile-skills li {
+    background-color: #0077cc;
+    color: #fff;
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 0.85rem;
+}
+
+/* ✅ Footer */
+.profile-footer {
+    background-color: #f0f0f0;
+    padding: 15px;
+    text-align: center;
+    border-radius: 0 0 12px 12px;
+}
+
+/* ✅ Social Links */
+.social-link {
+    display: inline-block;
+    margin: 0 10px;
+    color: #0077cc;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.social-link:hover {
+    color: #004a99;
+}
